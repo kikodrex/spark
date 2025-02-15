@@ -19,6 +19,15 @@ Note:
 1. Only running 1 node if run without proxy.
 2. If GET Device ID Failed. Try Login Your Sparkchain Extension First
 
+# Device Hash
+![image](https://github.com/user-attachments/assets/63221f46-8e63-4ecc-af84-27ebdad68dd0)
+
+If Cant find Device has
+Try this Method in Console
+```bash
+console.log(localStorage.getItem("deviceHash"));
+```
+
 ## Requiremnets
 
 - Make sure you have Python3.9 or higher installed and pip.
